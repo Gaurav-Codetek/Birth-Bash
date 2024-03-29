@@ -1,0 +1,130 @@
+@media only screen and (max-width:769px){
+    .listArea{
+        margin-left: 160px;
+    }
+    .searchBox{
+        width: 40%;
+    }
+    ._ProjectName{
+        width: 30%;
+    }
+    .profile{
+        width: 30%;
+    }
+    .dropSec{
+        width: 18%;
+    }
+
+    .branch, .semester{
+        font-size: 12px;
+        width: 23%;
+    }
+
+    .listArea b{
+        font-size: 18px;
+        width: 28%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    header{
+        background-color: #fff;
+        z-index: 22222;
+    }
+
+    ._ProjectName{
+        width: 75%;
+        text-align: left;
+    }
+
+    .profile{
+        width: 20%;
+    }
+
+    .dp{
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .userID{
+        font-size: 13px;
+        display: none;
+    }
+
+    .searchBox{
+        display: none;
+    }
+
+    .dropSec{
+        width: 32%;
+    }
+
+    .navRTC{
+        display: none;
+    }
+
+    .listArea{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .listArea b{
+        font-size: 28px;
+        width: 100%;
+        padding-left: 7%;
+        justify-content: center;
+    }
+
+    .partySymb{
+        /* width: 12.75%; */
+        display: none;
+    }
+
+    .semester, .branch{
+        font-size: 12px;
+        width: 30%;
+    }
+
+    .goBtn{
+        margin: 10px;
+        font-size: 12px;
+    }
+
+    .listSec{
+        display: block;
+        flex-wrap: nowrap;
+    }
+
+    .card{
+        max-width: none;
+        width: 80%;
+    }
+    
+    p.cardName{
+        font-size: 28px;
+        padding: 0px 10px;
+        justify-content: start;
+    }
+
+    p.cardYear{
+        padding: 0px 10px;
+        justify-content: start;
+    }
+
+    .emailInp{
+        margin: 0 15%;
+    }
+
+    .passInp{
+        margin: 20px 15% 0px;
+    }
+
+    label{
+        top: 16px;
+    }
+
+    .contBtn button{
+        width: 70%;
+    }
+}
+
